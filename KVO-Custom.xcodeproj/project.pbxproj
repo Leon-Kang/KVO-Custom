@@ -13,6 +13,9 @@
 		3545DB3F22C49F1B006EEB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3545DB3E22C49F1B006EEB22 /* Assets.xcassets */; };
 		3545DB4222C49F1B006EEB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3545DB4022C49F1B006EEB22 /* LaunchScreen.storyboard */; };
 		3545DB4522C49F1B006EEB22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3545DB4422C49F1B006EEB22 /* main.m */; };
+		3545DB4D22C49F86006EEB22 /* KLSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3545DB4C22C49F86006EEB22 /* KLSPerson.m */; };
+		3545DB5022C4A02B006EEB22 /* NSObject+KLSKVOImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 3545DB4F22C4A02B006EEB22 /* NSObject+KLSKVOImp.m */; };
+		3545DB5322C4B95A006EEB22 /* NSObject+KLSKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3545DB5222C4B95A006EEB22 /* NSObject+KLSKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		3545DB4122C49F1B006EEB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3545DB4322C49F1B006EEB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3545DB4422C49F1B006EEB22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3545DB4B22C49F86006EEB22 /* KLSPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLSPerson.h; sourceTree = "<group>"; };
+		3545DB4C22C49F86006EEB22 /* KLSPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLSPerson.m; sourceTree = "<group>"; };
+		3545DB4E22C4A02B006EEB22 /* NSObject+KLSKVOImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KLSKVOImp.h"; sourceTree = "<group>"; };
+		3545DB4F22C4A02B006EEB22 /* NSObject+KLSKVOImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KLSKVOImp.m"; sourceTree = "<group>"; };
+		3545DB5122C4B95A006EEB22 /* NSObject+KLSKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KLSKVO.h"; sourceTree = "<group>"; };
+		3545DB5222C4B95A006EEB22 /* NSObject+KLSKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KLSKVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				3545DB3622C49F1A006EEB22 /* AppDelegate.m */,
 				3545DB3822C49F1A006EEB22 /* ViewController.h */,
 				3545DB3922C49F1A006EEB22 /* ViewController.m */,
+				3545DB4B22C49F86006EEB22 /* KLSPerson.h */,
+				3545DB4C22C49F86006EEB22 /* KLSPerson.m */,
+				3545DB4E22C4A02B006EEB22 /* NSObject+KLSKVOImp.h */,
+				3545DB4F22C4A02B006EEB22 /* NSObject+KLSKVOImp.m */,
+				3545DB5122C4B95A006EEB22 /* NSObject+KLSKVO.h */,
+				3545DB5222C4B95A006EEB22 /* NSObject+KLSKVO.m */,
 				3545DB3B22C49F1A006EEB22 /* Main.storyboard */,
 				3545DB3E22C49F1B006EEB22 /* Assets.xcassets */,
 				3545DB4022C49F1B006EEB22 /* LaunchScreen.storyboard */,
@@ -143,7 +158,10 @@
 			files = (
 				3545DB3A22C49F1A006EEB22 /* ViewController.m in Sources */,
 				3545DB4522C49F1B006EEB22 /* main.m in Sources */,
+				3545DB5022C4A02B006EEB22 /* NSObject+KLSKVOImp.m in Sources */,
+				3545DB5322C4B95A006EEB22 /* NSObject+KLSKVO.m in Sources */,
 				3545DB3722C49F1A006EEB22 /* AppDelegate.m in Sources */,
+				3545DB4D22C49F86006EEB22 /* KLSPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
