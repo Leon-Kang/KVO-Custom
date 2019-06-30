@@ -158,7 +158,7 @@ static Class kvo_class(id self, SEL _cmd) {
 }
 
 static void kvo_setter(id self, SEL _cmd, id newValue) {
-     NSString *setterName = NSStringFromSelector(_cmd);
+    NSString *setterName = NSStringFromSelector(_cmd);
     NSString *getterName = getGetterNameFromSetter(setterName);
     
     if (!getterName) {
@@ -177,7 +177,7 @@ static void kvo_setter(id self, SEL _cmd, id newValue) {
     
     objc_msgSendSuperCasted(&superClazz, _cmd, newValue);
     
-    NSMutableArray *observers = objc_getAssociatedObject(self, (__bridge const void *)(kKLSKVOClassPrefix));
+    NSMutableArray *observers = objc_getAssociatedObject(self, (__bridge const void *)(kKLSKVOAssociatedObservers));
 
     for (KLSObservationInfo *each in observers) {
         if ([each.key isEqualToString:getterName]) {
